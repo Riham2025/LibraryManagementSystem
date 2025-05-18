@@ -78,3 +78,8 @@ member can provide multiple reviews, and a book may receive many reviews.
   - RDAATE
 
 ![ERD Diagram](image/1.png)
+
+## Map the ERD to Relational Schema:
+- Convert the ERD into relational tables with PKs and FKs defined. 
+
+![Mapping Diagram](./image/2.png)
