@@ -83,3 +83,8 @@ member can provide multiple reviews, and a book may receive many reviews.
 - Convert the ERD into relational tables with PKs and FKs defined. 
 
 ![Mapping Diagram](./image/2.png)
+
+## Normalization Practice 
+- Choose 2–3 tables to normalize. 
+- Show step-by-step conversion to 1NF ? 2NF ? 3NF. 
+- Justify each normalization step. 
