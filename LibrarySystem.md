@@ -2,7 +2,6 @@
 
 ## Description of database:
 
-
  **The Library Management System** is designed to manage books, members, staff, 
 loans, and transactions efficiently. The system includes libraries where each library 
 has a unique ID, name, location, contact number, and established year. Each library 
