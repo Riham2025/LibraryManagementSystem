@@ -1,6 +1,7 @@
 # **Library Management System DB**
 
-## Description of database: 
+## Description of database:
+
 
  **The Library Management System** is designed to manage books, members, staff, 
 loans, and transactions efficiently. The system includes libraries where each library 
