@@ -1,4 +1,4 @@
-# **Library Management System DB**
+﻿# **Library Management System DB**
 
 ## Description of database:
 
@@ -85,6 +85,10 @@ member can provide multiple reviews, and a book may receive many reviews.
 ![Mapping Diagram](./image/2.png)
 
 ## Normalization Practice 
-- Choose 2�3 tables to normalize. 
-- Show step-by-step conversion to 1NF ? 2NF ? 3NF. 
+- Choose 2–3 tables to normalize. 
+- Show step-by-step conversion to 1NF → 2NF → 3NF. 
 - Justify each normalization step. 
+
+**1. Member table:**
+
+![Mapping Diagram](./image/3.png)
