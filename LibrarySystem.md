@@ -77,18 +77,18 @@ member can provide multiple reviews, and a book may receive many reviews.
   - RID
   - RDAATE
 
-![ERD Diagram](image/1.png)
+![ERD Diagram](image/1.PNG)
 
 ## Map the ERD to Relational Schema:
 - Convert the ERD into relational tables with PKs and FKs defined. 
 
-![Mapping Diagram](./image/2.png)
+![Mapping Diagram](./image/2.PNG)
 
 ## Normalization Practice 
-- Choose 2–3 tables to normalize. 
+- Choose 1 tables to normalize. 
 - Show step-by-step conversion to 1NF → 2NF → 3NF. 
 - Justify each normalization step. 
 
 **1. Member table:**
 
-![Mapping Diagram](./image/3.png)
+![Mapping Diagram](./image/3.PNG)
