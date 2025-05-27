@@ -242,12 +242,45 @@ INSERT INTO Review (RID, BID, MemberID, RDate, Rating, Comments) VALUES (4, 4, 4
 INSERT INTO Review (RID, BID, MemberID, RDate, Rating, Comments) VALUES (5, 5, 5, '2024-01-06', 2, 'Needs improvement.');
 INSERT INTO Review (RID, BID, MemberID, RDate, Rating, Comments) VALUES (6, 6, 6, '2024-03-12', 4, 'Well written.');
 
+insert into Email (email , MemberID) values 
+('aaa@gmail.com' , 1), 
+('www@gmail.com' , 2), 
+('sss@gmail.com' , 3), 
+('fff@gmail.com' , 4) ,
+('ggg@gmail.com' , 5) ,
+('bbb@gmail.com' , 6) ,
+('ooo@gmail.com' , 7) ,
+('mmm@gmail.com' , 8) ,
+('zzz@gmail.com' , 9) ,
+('vvv@gmail.com' , 10) ,
+('nnn@gmail.com' , 11) ,
+('uuu@gmail.com' , 12) ;
+
+
+insert into Phone(phone , MemberID) values 
+('91111111' , 1), 
+('91111112' , 2), 
+('91111113' , 3), 
+('91111114' , 4) ,
+('91111115' , 5) ,
+('91111116' , 6) ,
+('91111117' , 7) ,
+('91111118' , 8) ,
+('91111119' , 9) ,
+('91111110' , 10) ,
+('91111121' , 11) ,
+('91119111' , 12) ;
+
+
 
 UPDATE Book SET Statu = 'Returned' WHERE BID = 1;
 UPDATE Loans SET Statu = 'Returned', returnes = '2024-05-15' WHERE LID = 1;
 
 DELETE FROM Review WHERE RID = 5 AND BID = 5 AND MemberID = 5;
 DELETE FROM Payment1 WHERE ID = 2;
+
+
+
 
 
 --------select
@@ -268,3 +301,7 @@ SELECT * FROM Payment3;
 SELECT * FROM Staff;
 
 SELECT * FROM Review;
+
+select * from Email;
+
+select * from Phone;
